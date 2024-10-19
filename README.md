@@ -68,17 +68,21 @@ dürfte für die Erstellung einem Netzwerk aus 9 Routern im lokalen Bereich irre
 Möglichkeit 1:
 
 source .venv/bin/activate
+
 pip install gunicorn
+
 gunicorn -w 4 -b 0.0.0.0:8000 app:app
 
 Möglichkeit 2:
 
 source .venv/bin/activate
+
 pip install uwsgi
+
 uwsgi --http :8000 --wsgi-file app.py --callable app
 
 
-   Die folgenden beiden Arten von Meldungen sind irrelevant und können ignoriert werden:
+Die folgenden beiden Arten von Meldungen sind irrelevant und können ignoriert werden:
 
 unable to find configuration file for VM 101003 on node 'node1'
 Configuration file 'nodes/node1/qemu-server/101003.conf' does not exist
