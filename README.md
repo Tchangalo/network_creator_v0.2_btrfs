@@ -26,7 +26,9 @@ Der Network Creator wird folgendermaßen aufgerufen:
 und dann eingeben:
 
 source .venv/bin/activate
+
 cd streams
+
 python app.py
 
 Nötigenfalls sudo-Password des Users im Terminal eingeben.
@@ -47,6 +49,7 @@ Der Network Creator kommt per default im Dark Mode. Man kann aber folgendermaße
 (3) Starte den Network Creator neu mittels  
 
 strg+C
+
 python app.py
 
 ![foto4](Bilder/08.png)
