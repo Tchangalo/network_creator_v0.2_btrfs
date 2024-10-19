@@ -11,7 +11,7 @@ Für alle, die mit den [Streams](https://github.com/aibix0001/streams) von Aibix
 
 ## Quickstart
 
-Nach dem Clonen dieses Repos den Ordner streams aus dem Ordner network_creator_v0.2_zfs herausnehmen und in den Pfad /home/user/ des PVE-Hosts ablegen und dann von da aus arbeiten.
+Nach dem Clonen dieses Repos den Ordner streams aus dem Ordner network_creator_v0.2_btrfs herausnehmen und in den Pfad /home/user/ des PVE-Hosts ablegen und dann von da aus arbeiten.
 
 Der Network Creator wird folgendermaßen aufgerufen:
 
