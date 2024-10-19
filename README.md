@@ -19,7 +19,7 @@ Der Network Creator wird folgendermaßen aufgerufen:
 
 (2) Für alle, deren User nicht user heißt: im create-vm-vyos.sh und im create-vm-vyos-turbo.sh Zeile 33 anpassen. Außerdem sind die SSH-Credentials in der Datei user-data beim Erstellen der seed.iso anzupassen, sowie die ansible.cfg .
 
-(3) eine seed.iso erstellen (siehe Setup.pdf) und unter /var/lib/local-btrfs/template/iso/ - bzw. /var/lib/vz/template/iso im Fall von ZFS - ablegen,
+(3) eine seed.iso erstellen (siehe Setup.pdf) und unter /var/lib/local-btrfs/template/iso/ ablegen,
 
 (4) die neueste Version von Vyos rolling runterladen und unter /home/user/ansible/vyos-files/ ablegen (dazu den Ordner vyos-files anlegen). Diese Datei ab und zu aktualisieren, damit das Update auf dem neuesten Stand bleibt.
 
